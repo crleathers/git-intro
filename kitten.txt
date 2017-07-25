@@ -1,4 +1,37 @@
-I love the little kitties but dogs RULE!
-There is a super cute kittie in this folder now.
+	
+Determine scope for sh404 Removal and reconfigure URL redirects
+ - Several meetings and hours of planning for the best way to remove the sh404 component
+ - Cleaning the existing URL redirects to remove duplicates and optimize URLs
 
-Lets see if this works.
+ 		
+SEO Optimized URLs that must be maintained
+- Without causing harm to the SEO work, the URL structure of the main Joomla site after removing sh404 was rebuilt with more SEO "juice". Keywords from the content were added to the core Joomla URL structure
+
+ 		
+Extra work for the PLAY > PROD swap	
+- Export Scholarships Database
+  - When migrating the production server to the PLAY environment, the database and some content for the has to be exported and reimported repeatedly to keep content in both servers
+
+ 		
+Uninstall sh404
+- Removal of the sh404 code and extensive testing to ensure the site functioned. 
+
+ 		
+Content changes
+- Duplicate content entry while the development work continued
+
+
+Setup redirects
+- Despite expensive planning, some of the 3000+ URL redirects had to be modified after removal of the sh404 component
+
+ 		
+Fix broken URLs from Siteimprove report
+- After all work was completed in the project, the SEO team reported broken URLs. Google Webmaster tools and Siteimprove were used to identify the broken URLs and all were addressed
+ 
+ 		
+Test feasibility of setting up a custom URL shortener
+- An open-source URL shortener (like bit.ly) was installed and tested on the server. After multiple code modifications, it was determined that the code could not coexist with the existing Joomla and MachForms installations on the production server. Conflicts in the code necessitated that the URL shortener be installed on a second domain, which was impractical.
+
+
+Page Builder
+
