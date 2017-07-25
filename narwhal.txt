@@ -1,0 +1,1 @@
+This is my stupid text editor instead of Sublime, which fucking sucks but that is a task for another day.
